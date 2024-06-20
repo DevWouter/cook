@@ -1,0 +1,8 @@
+recipe: example-readme
+style: file
+---
+new_file:
+  - filename: README.md
+  - content: |
+      # README
+      This is a readme file

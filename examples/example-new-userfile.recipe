@@ -1,0 +1,15 @@
+type: range-replace
+replacements:
+  - query: Name of the user?
+    ranges:
+      - L01C03..L01C11
+      - L02C01..L01C09
+  - query: Mail of the user?
+    ranges:
+      - L02C28..L02C47
+content: |
+  # John Doe
+  John Doe can be reached at johndoe@example.com
+
+  # Background
+  <!-- There is no background written -->

@@ -1,0 +1,18 @@
+recipe: new-project
+require:
+  - git
+---
+steps:
+  - act: query
+    question: What is the name of the repo or folder?
+    hint: Leave empty if current folder
+    default: ''
+    code: 
+      global.folder = local.answer
+  - act: choose-options
+    question: "What type of projects"
+    options:
+      - "dotnet-api"
+      - "dotnet-blazor"
+      - "angular"
+      - "nestjs"
